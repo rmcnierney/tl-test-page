@@ -1,0 +1,13 @@
+#body {
+    padding: 60px 40px 0 40px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 24px;
+    font-weight: 400;
+
+}
+
+#blog-post-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,43 @@
+#blog-post {
+    padding: 0 25px;
+    margin-bottom: 50px;
+    width: 25%;
+}
+
+#blog-post-img > img {
+    max-width: 100%
+}
+
+#blog-post-title {
+    padding-top: 20px;
+    margin-bottom: 15px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.4;
+    color: rgb(37, 40, 43);
+}
+
+#blog-post-date {
+    color: #949799;
+}
+
+#blog-post-content {
+    word-wrap: break-word;
+    margin-top: 14px;
+    color: rgb(79, 84, 89);
+    font-size: 14px;
+}
+
+#blog-post-readMore {
+    box-shadow: 0 2px 1px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3);
+    font-size: 15px;
+    line-height: 20px;
+    padding: 11px 22px;
+    text-transform: uppercase;
+    position: relative;
+    border-radius: 3px;
+    border: none;
+    width: 95px;
+    margin: 22px 0 0;
+}

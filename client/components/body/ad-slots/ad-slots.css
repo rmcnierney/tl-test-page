@@ -1,0 +1,12 @@
+#ad-leaderboard-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+#ad-leaderboard {
+    width: 720px;
+    height: 90px;
+    background-color: blue;
+    display: flex;
+}
