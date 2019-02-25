@@ -8,20 +8,9 @@ import blogData from '../data/data'
 
 // ad-slots
 import AdLeaderboard from './ad-slots/Ad-leaderboard'
+import AdNative from './ad-slots/Ad-native'
 
 class Body extends Component {
-
-    componentDidMount() {
-        const script = document.createElement('script')
-        script.src = '//ib.3lift.com/ttj?inv_code=ryan_test_infeed'
-        script.async = true
-        const parentNode = document.querySelector('#blog-post-grid')
-        const refNode = document.querySelector('#blog-post:nth-of-type(5)')
-        
-        // insert the script
-        parentNode.insertBefore(script, refNode)
-    }
-
     render() {
         return (
             <div id="body">
@@ -29,6 +18,7 @@ class Body extends Component {
                 <div id="blog-post-grid">
                     {
                         blogData.map(post => {
+                            if (post.id === 3) return <AdNative key='ntv-1'/>
                             return (
                                 <BlogPost key={post.id} data={post}/>
                             )
